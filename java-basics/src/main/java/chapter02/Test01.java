@@ -19,9 +19,9 @@ public class Test01 {
         
         System.out.print("두번째 계산할 값을 입력하세요 ==> ");
         b = s.nextInt();
-        System.out.print("세번쨰 계산할 값을 입력하세요 ==> ");
+        System.out.print("세번째 계산할 값을 입력하세요 ==> ");
         c = s.nextInt();
-        System.out.print("네번쨰 계산할 값을 입력하세요 ==> ");
+        System.out.print("네번째 계산할 값을 입력하세요 ==> ");
         d = s.nextInt();
         
         result = a + b + c + d;
