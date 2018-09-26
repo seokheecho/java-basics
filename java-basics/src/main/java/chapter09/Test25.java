@@ -54,8 +54,17 @@ public class Test25 {
                         dupl = 'Y';
                     }
                 }
-         *
+         
+         * dupl == 'N' 이면 lotto 배열 i를 증가 시키고 num 을 넣는다.
+         * dupl == 'N' 이 아니면 dupl = 'N' 으로 하고 다시 반복문으로 간다.
+         * (예를들어 num가 8이 중복이 되어 있으면 dupl = 'Y' 로 되어있으므로 
+         * dupl = 'N' 으로 바꾸고 반복문으로 돌아가   num에 랜덤 값을 다시 얻는다. (num = getNumber();))
+                if (dupl == 'N')
+                    lotto[i++] = num;
+                else 
+                    dupl = 'N';
         */
+        
         System.out.printf("추첨된 로또 번호 ==> ");
         // 뽑힌 6개의 로또 숫자를 출력한다.
         for (i = 0; i < 6; i++) {
