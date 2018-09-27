@@ -31,6 +31,7 @@ public class Test28 {
             
             // 반대 순서로 저장한 str2를 파일에 쓰고 초기화 한다.
             pw.println(str2);
+            // pw.write(str2);
             str2 = "";
         }
         sc.close();
