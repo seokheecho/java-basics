@@ -20,6 +20,12 @@ abstract class Fish {
 
 // 다중 상속을 받는 고래 클래스를 정의
 class Whale extends Fish implements Mammal {
+    
+/*
+ * // 추상클래스 Fish 를 인터페이스(interface Fish{})로 만들고 
+ * class Whale implements Mammal, Fish {} 로 다중 상속을 받을 수 있다.
+ */
+    
     // bear() 메소드를 오버라이딩 한다.
     public void bear() {
         System.out.println("고래는 새끼를 낳습니다.");
@@ -54,11 +60,6 @@ class Whale extends Fish implements Mammal {
      *      }
      */
 }
-
-/*
- * // 추상클래스 Fish 를 인터페이스(interface Fish{})로 만들고 
- * class Whale implements Mammal, Fish {} 로 다중 상속을 받을 수 있다.
- */
 
 
 // Chapter12 - Test34 포유류(Mammal)와 어류(Fish)의
